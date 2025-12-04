@@ -1,0 +1,126 @@
+.white
+{
+    background-color: #FFFFFF;
+}
+
+.red
+{
+    background-color: #C8102E;
+}
+
+.blue
+{
+    background-color: #012169;
+}
+
+#BlueBG
+{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+    width: 600px;
+    height: 300px;
+    
+    overflow: hidden;
+}
+
+#WhiteCrossLU
+{
+    position: absolute;
+    top: -335px;
+    left: 300px;
+    width: 60px;
+    height: 1000px;
+    z-index: 1;
+    transform: rotate(116.27deg);
+}
+
+#RedCrossUL
+{
+    position: absolute;
+    left: 30px;
+    top: 500px;
+    width: 20px;
+    
+    height: 500px;
+    z-index: 2;
+}
+
+#RedCrossLR
+{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    
+    height: 500px;
+    z-index: 2;
+}
+
+#WhiteCrossUL
+{
+    position: absolute;
+    top: -365px;
+    left: 300px;
+    width: 60px;
+    height: 1000px;
+    z-index: 1;
+    transform: rotate(63.33deg);
+}
+
+#RedCrossLL
+{
+    position: absolute;
+    left: 30px;
+    top: 500px;
+    width: 20px;
+    
+    height: 500px;
+    z-index: 2;
+}
+
+#RedCrossUR
+{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    
+    height: 500px;
+    z-index: 2;
+}
+
+#WhiteCrossV
+{
+    position: absolute;
+    left: 250px;
+    width: 100px;
+    height: 300px;
+    z-index: 5;
+}
+
+#WhiteCrossH
+{
+    position: absolute;
+    bottom: 100px;
+    width: 600px;
+    height: 100px;
+    z-index: 5;
+}
+
+#RedCrossV
+{
+    position: absolute;
+    left: 270px;
+    width: 60px;
+    height: 300px;
+    z-index: 10;
+}
+
+#RedCrossH
+{
+    position: absolute;
+    top: 120px;
+    width: 600px;
+    height: 60px;
+    z-index: 10;
+}
